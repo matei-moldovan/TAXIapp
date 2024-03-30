@@ -1,0 +1,3 @@
+class CustomExceptions:
+
+class ValueError:
