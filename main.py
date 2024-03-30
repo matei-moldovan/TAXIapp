@@ -51,7 +51,7 @@ def drive(plate_number=None):
             elif command == 5:
                 show_car_list(car_list)
         except:
-            print(" Make sure to enter one 'int' type character")
+            print(" Make sure to enter one 'int' type character!")
 
 
 drive()
