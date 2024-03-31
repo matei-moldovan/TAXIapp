@@ -1,8 +1,8 @@
-from entities import Car
+from domain.Car import Car
 
 from main_copy import print_menu
-from services import Service
-from UI import UI
+from service.services import Service
+from UI.UI import UI
 
 service = Service()
 ui = UI(service)

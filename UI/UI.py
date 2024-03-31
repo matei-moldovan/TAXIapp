@@ -1,8 +1,7 @@
 from main import service
-from main_copy import get_car, show_car_list
-from entities import Car
-from .exceptions import CustomException
-from services import Service
+from domain.Car import Car
+from domain.exceptions import CustomException
+
 
 class UI:
     def __init__(self):

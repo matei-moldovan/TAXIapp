@@ -1,6 +1,6 @@
 from main_copy import compose_distinctive_brand_list
-from entities import Car
-from exceptions import CustomException
+from domain.Car import Car
+from domain.exceptions import CustomException
 
 
 class Service:
